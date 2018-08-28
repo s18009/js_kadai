@@ -12,7 +12,7 @@ var first_color = '#eb6ea5';
 
 const input = new Input();
 const ball = new Ball(400, 300, 10, 5, first_color);
-const paddle = new Paddle(400, 550, 200, 10, 'deepskyblue');
+const paddle = new Paddle(400, 550, 200, 10, 'white');
 const score = new Score(WINDOW_WIDTH - 12, 24);
 const combo = new Combo(WINDOW_WIDTH - 12, 44);
 const blocks = [];
